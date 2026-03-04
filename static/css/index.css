@@ -200,6 +200,20 @@ body {
     color: var(--primary-hover) !important;
 }
 
+/* logos for institutions in publication header */
+.institution-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    gap: 1rem;
+}
+.institution-logos img {
+    max-height: 5rem;
+    width: auto;
+}
+
 .author-block {
   display: inline-block;
   margin-right: 0.5rem;
